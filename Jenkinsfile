@@ -69,7 +69,7 @@ pipeline {
                 echo 'Docker Push Successful (add docker login if needed)'
                 script {
                     try {
-                        mail to: '203b1a0565suni@gmail.com.com',
+                        mail to: '203b1a0565suni@gmail.com',
                              subject: "Docker Push Success",
                              body: "Docker image pushed successfully"
                     } catch (Exception e) {
