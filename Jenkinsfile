@@ -112,8 +112,3 @@ pipeline {
         }
     }
 }
-stage('Check Node') {
-    steps {
-        sh 'echo Running on node: $NODE_NAME'
-    }
-}
