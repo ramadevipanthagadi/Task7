@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git url: 'https://github.com/Arunasri-0096/task7-mail.git', branch: 'main'
+                git url: 'https://github.com/ramadevipanthagadi/Task7.git', branch: 'main'
                 echo 'Code checkout successful'
                 script {
                     try {
